@@ -1,8 +1,8 @@
-<p align="center">
+<p align="left">
 Electron-React-PixiJS-Greenworks boilerplate build upon <a href="https://github.com/electron-react-boilerplate/electron-react-boilerplate">Electron React Boilerplate</a> with the addition of <a href="https://github.com/inlet/react-pixi">React PixiJS</a> and <a href="https://github.com/greenheartgames/greenworks">Greenworks</a> (a node.js plugin to integrate nw.js/electron games with steamworks). The purpose of this boilerplate is to provide a starting point for anyone planning to create React-PixiJS games to be uploaded on <a href="https://partner.steamgames.com/">Steamworks</a> and available on <a href="https://store.steampowered.com/">Steam</a>.  
-<br>
+<br><br>
 The electron-react-boilerplate which this boilerplate is based on utilizes <a href="http://electron.atom.io/">Electron</a>, <a href="https://facebook.github.io/react/">React</a>, <a href="https://github.com/reactjs/redux">Redux</a>, <a href="https://github.com/reactjs/react-router">React Router</a>, <a href="http://webpack.github.io/docs/">Webpack</a> and <a href="https://github.com/gaearon/react-hot-loader">React Hot Loader</a> for rapid application development (HMR).
-<br>
+<br><br>
 I will attempt to improve this boilerplate going forward but I welcome any forks and pull requests with any improvements.
 </p>
 
@@ -16,7 +16,7 @@ I will attempt to improve this boilerplate going forward but I welcome any forks
 
 <br>
 
-<div align="center">
+<div align="left">
 
 The following versions were used in the current boilerplate:
 
