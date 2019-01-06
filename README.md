@@ -1,5 +1,5 @@
 <p align="center">
-Electron-React-PixiJS-Greenworks boilerplate build upon <a href="https://github.com/electron-react-boilerplate/electron-react-boilerplate">Electron React Boilerplate</a> with the addition of <a href="https://github.com/inlet/react-pixi">React PixiJS</a> and <a href="https://github.com/greenheartgames/greenworks">Greenworks (a node.js plugin to integrate nw.js/electron games with steamworks)</a>. The purpose of this boilerplate is to provide a starting point for anyone planning to create React-PixiJS games to be uploaded on <a href="https://partner.steamgames.com/">Steamworks</a> and available on <a href="https://store.steampowered.com/">Steam</a>.  
+Electron-React-PixiJS-Greenworks boilerplate build upon <a href="https://github.com/electron-react-boilerplate/electron-react-boilerplate">Electron React Boilerplate</a> with the addition of <a href="https://github.com/inlet/react-pixi">React PixiJS</a> and <a href="https://github.com/greenheartgames/greenworks">Greenworks</a> (a node.js plugin to integrate nw.js/electron games with steamworks). The purpose of this boilerplate is to provide a starting point for anyone planning to create React-PixiJS games to be uploaded on <a href="https://partner.steamgames.com/">Steamworks</a> and available on <a href="https://store.steampowered.com/">Steam</a>.  
 <br>
 The electron-react-boilerplate which this boilerplate is based on utilizes <a href="http://electron.atom.io/">Electron</a>, <a href="https://facebook.github.io/react/">React</a>, <a href="https://github.com/reactjs/redux">Redux</a>, <a href="https://github.com/reactjs/react-router">React Router</a>, <a href="http://webpack.github.io/docs/">Webpack</a> and <a href="https://github.com/gaearon/react-hot-loader">React Hot Loader</a> for rapid application development (HMR).
 <br>
@@ -19,30 +19,32 @@ I will attempt to improve this boilerplate going forward but I welcome any forks
 <div align="center">
 
 The following versions were used in the current boilerplate:
-electron-react-boilerplate v0.17.1
-electron v3.0.10
-inlet/react-pixi v0.4.3
-pixi.js v4.7.1
-react v16.6.3
-node.js v10.2.0
-greenworks.js v0.14.0
+
+* electron-react-boilerplate v0.17.1
+* electron v3.0.10
+* inlet/react-pixi v0.4.3
+* pixi.js v4.7.1
+* react v16.6.3
+* node.js v10.2.0
+* greenworks.js v0.14.0
 
 </div>
 
 ## Steps for getting boilerplate on Steam
 
 Prerequisites:
+
 You signed up for <a href="https://partner.steamgames.com/">Steamworks</a> and paid the product submission fee to setup a new product for distribution via Steam.
 You are familiar with uploading game deliverables onto steam, see <a href="https://partner.steamgames.com/doc/sdk/uploading">this reference</a> for details.
 
 First, perform the install steps as outlined below under the Install section.
 
-Next, update the steam_appid.txt file found in the project root and add your steam ap id in there.
+Next, create the steam_appid.txt file and place it in your project root, you will add your steam ap id in there.
 
 Now go into the steam folder of root and add the following 3 files from your steamworks sdk zip file obtained from <a href="https://partner.steamgames.com/">Steamworks</a>.
-steam_api64.dll
-sdkencryptedappticket64.dll
-greenworks-win64.node
+* steam_api64.dll
+* sdkencryptedappticket64.dll
+* greenworks-win64.node
 
 Note: you will need different files for different platforms/architectures, the above is for Windows x64, see <a href="https://medium.com/@Raicuparta/getting-an-html5-game-on-steam-4-steamworks-d50df104ddf0">here</a> for more details.
 
