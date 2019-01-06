@@ -10,7 +10,7 @@ I will attempt to improve this boilerplate going forward but I welcome any forks
 
 <div align="center">
 
-![Electron Boilerplate Demo](internals/img/boilerplate-on-steam.gif)
+![Electron Boilerplate Demo](https://media.giphy.com/media/5vYj8SYPKG0EiOKxUn/giphy.gif)
 
 </div>
 
@@ -67,7 +67,7 @@ Make the new uploaded build the default branch in steamworks.
 
 Restart your steam and you will now see your boilerplate between your other games like so:
 
-<img src="internals/img/boilerplate-on-steam.gif">
+<img src="https://media.giphy.com/media/5vYj8SYPKG0EiOKxUn/giphy.gif">
 
 ## Install
 
